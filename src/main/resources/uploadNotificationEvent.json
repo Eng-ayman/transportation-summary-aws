@@ -1,0 +1,40 @@
+{
+    "Records": [
+        {
+            "awsRegion": "us-east-1",
+            "eventName": "ObjectCreated:Put",
+            "eventSource": "aws:s3",
+            "eventTime": "2018-10-08T20:39:01.050Z",
+            "eventVersion": "2.0",
+            "requestParameters": {
+                "sourceIPAddress": "196.205.14.19"
+            },
+            "responseElements": {
+                "x-amz-id-2": "bomNoNfT8Hxfe1yl3n2JlX9doi65QwakfECPM9LVBRWW4OmnguLJWv1IeTKG9pR+IhcMIM2JsVI=",
+                "x-amz-request-id": "72BE2FA3B175151C"
+            },
+            "s3": {
+                "configurationId": "ZmVlZGVjMTUtNzlmNi00ZjY0LWI0ZWEtMGY0ZjM3MzFkNmM3",
+                "bucket": {
+                    "name": "transportpartners",
+                    "ownerIdentity": {
+                        "principalId": "AK551BAM669F"
+                    },
+                    "arn": "arn:aws:s3:::transportpartners"
+                },
+                "object": {
+                    "key": "records/Partner-1/inputFile.json",
+                    "size": 745,
+                    "eTag": "0832bdef0889abe47012304a7a0de26a",
+                    "versionId": "",
+                    "sequencer": "005BBBC0650049B779",
+                    "urlDecodedKey": "records/Partner-1/inputFile.json"
+                },
+                "s3SchemaVersion": "1.0"
+            },
+            "userIdentity": {
+                "principalId": "AK551BAM669F"
+            }
+        }
+    ]
+}
